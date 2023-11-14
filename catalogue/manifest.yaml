@@ -41,7 +41,7 @@ spec:
     tier: app
     project: roboshop
   ports:
-  - name: catalogue:port
+  - name: catalogue-port
     protocol: TCP
     port: 8080
     targetPort: 8080
